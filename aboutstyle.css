@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    font-family: 'Cornerstone', serif; 
+    font-size: 16px;                       
+    color: white;  
+    width: 100%;   
+    z-index: 1000; 
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo-container {
+    position: relative;
+}
+
+.left-logo img {
+    margin: 0;
+    padding: 0;
+    width: 410px;   
+    height: 410px;  
+
+}
+.color-stripe {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(124, 25, 25); 
+    height: 400px;              
+}
+.footer {
+    position: fixed; 
+    bottom: 0;       
+    left: 0;        
+    width: 100%;     
+    padding: 10px;   
+    background-color: #000000; 
+    color: rgb(240, 233, 233);    
+    text-align: center; 
+    z-index: 1000;   
+}
+.my-button {
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    color: white; 
+    background-color: rgb(214, 214, 227); 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; 
+}
+
+.my-button:hover {
+    background-color: rgb(9, 9, 12);
+}
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
+.content {
+    min-height: 200vh; 
+    padding: 20px; 
+    background-color: #f4f4f4; 
+}
